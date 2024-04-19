@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color:antiquewhite ;
+}
+
+.container-informacoes{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cartao{
+    display: flex;
+    width: 700px;
+    height: 650px;
+    margin: 30px;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+.cartao .imagem img{
+    width: 350px;
+    height: 650px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.cartao .informacoes{
+    width: 50%;
+}
+
+.cartao .informacoes .nome-produto{
+    color: cadetblue;
+    font-size: 18px;
+    letter-spacing: 4px;
+    font-family: monospace;
+}
+
+.cartao .informacoes h1{
+    width: 250px;
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.cartao .informacoes p{
+    width: 200px;
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.preços{
+    display: flex;
+    align-items: center;
+}
+
+.preços .valor-desconto{
+    margin: 30px;
+    font-size: 40px;
+    color: green;
+}
+
+.preços .valor-normal{
+    text-decoration: line-through;
+    color: slategray;
+}
+
+.botao{
+    width: 250px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: hsl(158, 36%, 37%);
+    color: #fff;
+    border-style: none;
+}
+
+.botao img{
+    
+}
+
+
